@@ -1,74 +1,69 @@
 # CARTHAGE v2.0 Trading Terminal Code
 
-## Overview
-The CARTHAGE trading terminal has been updated to version 2.0. This version includes the following features:
-- 7 Agents
-- 25 Indicators
-- 10 Strategies
-- Live Dashboard
-- Helper Functions
+## Trading Agents
 
-## Code Structure
+# NewsScanner
+class NewsScanner:
+    def __init__(self):
+        pass
+    # Implementation of NewsScanner logic
 
-```python
-# Agents
-class Agent1:
-    pass
+# CoinSelector
+class CoinSelector:
+    def __init__(self):
+        pass
+    # Implementation of CoinSelector logic
 
-class Agent2:
-    pass
+# TechnicalAnalyser
+class TechnicalAnalyser:
+    def __init__(self):
+        pass
+    # Implementation of TechnicalAnalyser logic
 
-class Agent3:
-    pass
+# FundManager
+class FundManager:
+    def __init__(self):
+        pass
+    # Implementation of FundManager logic
 
-class Agent4:
-    pass
+# TradeTracker
+class TradeTracker:
+    def __init__(self):
+        pass
+    # Implementation of TradeTracker logic
 
-class Agent5:
-    pass
+# ReversalDetector
+class ReversalDetector:
+    def __init__(self):
+        pass
+    # Implementation of ReversalDetector logic
 
-class Agent6:
-    pass
+# StrategyEngine
+class StrategyEngine:
+    def __init__(self):
+        pass
+    # Implementation of StrategyEngine logic
 
-class Agent7:
-    pass
+## Technical Indicators
+# Define 25 technical indicators here...# E.g., Moving Averages, RSI, MACD, etc.
 
+## Trading Strategies
+# Define 10 trading strategies here...
 
-# Indicators
-class Indicator1:
-    pass
+## Risk Management System
+# Implementation of risk management...
 
-class Indicator2:
-    pass
+## Binance Executor
+# Implementation for Binance trading execution...
 
-class Indicator3:
-    pass
+## SQLite Database
+# Setup and manage SQLite database for trade data...
 
-# ... Continue for all 25 indicators
-
-
-# Strategies
-class Strategy1:
-    pass
-
-class Strategy2:
-    pass
-
-class Strategy3:
-    pass
-# ... Continue for all 10 strategies
-
-
-# Live Dashboard
-def live_dashboard():
-    pass
-
+## FastAPI Application
+# FastAPI application code with WebSocket dashboard
 
 # Helper Functions
-def helper_function1():
+def helper_function_1():
     pass
 
-def helper_function2():
-    pass
-# ... List all helper functions
-```
+# Define other helper functions...
