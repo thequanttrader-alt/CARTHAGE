@@ -1,0 +1,1 @@
+{"$schema": "https://railway.app/railway.schema.json","build": {"builder": "NIXPACKS"},"deploy": {"startCommand": "python carthage.py","restartPolicy": "on_failure","restartPolicyMaxRetries": 3,"healthcheckPath": "/api/state","healthcheckTimeout": 10}}
